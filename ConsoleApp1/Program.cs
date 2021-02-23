@@ -21,6 +21,9 @@ class MainClass
 		Console.WriteLine("Do I have a pet? " + HaveIApet);
 		Console.WriteLine("My shoe size is " + MyShoeSize);
 
+		Console.WriteLine("Intmin {0}", int.MinValue);
+		Console.WriteLine("Intmax {0}", int.MaxValue);
+
 		Console.ReadKey();
 	}
 }
