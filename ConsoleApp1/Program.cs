@@ -4,7 +4,6 @@ class MainClass
 {
 	public static void Main(string[] args)
 	{
-
 		string MyName = "Tatiana";
 		byte MyAge = 46;
 		bool HaveIApet = true;
@@ -63,6 +62,7 @@ class MainClass
 		Console.Write("Введите дату рождения: ");
 		var birthdate = Console.ReadLine();
 		Console.WriteLine("Ваше имя {0}, Ваш возраст {1}, Дата рождения {2}", name, Myage, birthdate);
+
 
 		Console.ReadKey();
 	}
